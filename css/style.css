@@ -56,7 +56,9 @@ body {
    color: #404bbf;
 }
 
-.contacts {}
+.contacts {
+   font-style: normal;
+}
 
 .contacts-list {}
 
@@ -66,6 +68,11 @@ body {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--text);
+}
+
+.contacts-list-item:hover,
+.contacts-list-item:focus{
+   color: #404bbf;
 }
 
 
@@ -160,6 +167,7 @@ body {
    letter-spacing: 0.02em;
    color: var(--title);
    text-align: center;
+   text-transform: capitalize;
 }
 
 .team-list {}
@@ -197,12 +205,12 @@ body {
    font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.03em;
-   color: #F4F4FD;
+   color: var(--accent);
    text-transform: uppercase
 }
 
 .footer-logo span {
-   color: var(--accent);
+   color: #F4F4FD;
 }
 
 .footer-text {
