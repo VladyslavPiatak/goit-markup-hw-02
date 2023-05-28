@@ -128,10 +128,10 @@ body {
 
 .power-text {
    font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;  
-      color: var(--text);
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;  
+   color: var(--text);
 }
 
 
@@ -232,7 +232,7 @@ body {
 
 .nav-item-portf {}
 
-.button-nav-portf {
+.button {
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 16px;
@@ -242,8 +242,8 @@ body {
    background: #F4F4FD;
    cursor: pointer;
 }
-.button-nav-portf:focus, 
-.button-nav-portf:hover {
+.button:focus, 
+.button:hover {
    color: #FFFFFF;
    background: #404BBF;
 }
