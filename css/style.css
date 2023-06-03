@@ -15,7 +15,15 @@ body {
 
 
 /* -----------------------------header---------------------------- */
-.header {}
+.header {
+   
+}
+
+.header-box{
+   width: 100%;
+   min-width: 1166px;
+
+}
 
 .header-nav {}
 
